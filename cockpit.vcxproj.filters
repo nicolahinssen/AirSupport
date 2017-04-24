@@ -21,28 +21,28 @@
     <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="include\ardrone\ardrone.cpp">
+    <ClCompile Include="src\ardrone\ardrone.cpp">
       <Filter>Source Files\AR.Drone</Filter>
     </ClCompile>
-    <ClCompile Include="include\ardrone\command.cpp">
+    <ClCompile Include="src\ardrone\command.cpp">
       <Filter>Source Files\AR.Drone</Filter>
     </ClCompile>
-    <ClCompile Include="include\ardrone\config.cpp">
+    <ClCompile Include="src\ardrone\config.cpp">
       <Filter>Source Files\AR.Drone</Filter>
     </ClCompile>
-    <ClCompile Include="include\ardrone\navdata.cpp">
+    <ClCompile Include="src\ardrone\navdata.cpp">
       <Filter>Source Files\AR.Drone</Filter>
     </ClCompile>
-    <ClCompile Include="include\ardrone\tcp.cpp">
+    <ClCompile Include="src\ardrone\tcp.cpp">
       <Filter>Source Files\AR.Drone</Filter>
     </ClCompile>
-    <ClCompile Include="include\ardrone\udp.cpp">
+    <ClCompile Include="src\ardrone\udp.cpp">
       <Filter>Source Files\AR.Drone</Filter>
     </ClCompile>
-    <ClCompile Include="include\ardrone\version.cpp">
+    <ClCompile Include="src\ardrone\version.cpp">
       <Filter>Source Files\AR.Drone</Filter>
     </ClCompile>
-    <ClCompile Include="include\ardrone\video.cpp">
+    <ClCompile Include="src\ardrone\video.cpp">
       <Filter>Source Files\AR.Drone</Filter>
     </ClCompile>
   </ItemGroup>
@@ -50,10 +50,10 @@
     <ClInclude Include="res\resource.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\ardrone\ardrone.h">
+    <ClInclude Include="src\ardrone\ardrone.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\ardrone\uvlc.h">
+    <ClInclude Include="src\ardrone\uvlc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
