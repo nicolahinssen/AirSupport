@@ -1,0 +1,55 @@
+#include "resource.h"
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+ID_ICON          ICON          "ardrone2cockpit-logo.ico"
+ID_IMAGEBG       IMAGE         "ardrone.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+#define VER_COMMENT             "AR.Drone 2.0 cockpit"
+#define VER_COMPANYNAME         "https://github.com/puku0x/cvdrone"
+#define VER_FILEDESCRIPTION     "AR.Drone with OpenCV"
+#define VER_FILEVERSION         "1.0"
+#define VER_INTERNAL_NAME       "cockpit"
+#define VER_LEGALCOPYRIGHT      "Copyright(C) 2013 puku0x + (c) 2016 Edwin Boer"
+#define VER_ORIGINAL_FILENAME   "cockpit.exe"
+#define VER_PRODUCTNAME         "cockpit"
+#define VER_PRODUCTVERSION      "1.0"
+
+1 VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x0L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x0L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104B0"
+        BEGIN
+            VALUE "Comments",         VER_COMMENT
+            VALUE "CompanyName",      VER_COMPANYNAME
+            VALUE "FileDescription",  VER_FILEDESCRIPTION
+            VALUE "FileVersion",      VER_FILEVERSION
+            VALUE "InternalName",     VER_INTERNAL_NAME
+            VALUE "LegalCopyright",   VER_LEGALCOPYRIGHT
+            VALUE "OriginalFilename", VER_ORIGINAL_FILENAME
+            VALUE "ProductName",      VER_PRODUCTNAME
+            VALUE "ProductVersion",   VER_PRODUCTVERSION
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
